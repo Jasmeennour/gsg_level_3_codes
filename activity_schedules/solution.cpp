@@ -43,7 +43,7 @@ void rec(int n)
     }
      for(int i=0;i<3;i++)
         {
-            if(!a.size()||a.back()!=arr[i])
+            if(a.empty()||a.back()!=arr[i])
             {
 
                 a.push_back(arr[i]);
